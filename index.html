@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>Minecraft - TreasureAlts</title>
+        <title>Login - SparkAlts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="TreasureAlts offers high quality alts for FREE. simply sign up and start generating your accounts!">
         <meta name="keywords" content="alts, minecraft alts, minecraft generator, account generator, minecraft account, accounts, accounts generator, alts generator, free alts, disney accounts, disney plus accounts, disney + accounts, spotify accounts, free spotify, free disney, free minecraft">
-        <meta name="og:title" content="Minecraft - TreasureAlts">
+        <meta name="og:title" content="Login - TreasureAlts">
         <meta name="og:description" content="TreasureAlts offers high quality alts for FREE. simply sign up and start generating your accounts!" />
         <meta name="theme-color" content="#0084ff">
         <meta name="exoclick-site-verification" content="dc564cea5dd92542f66849fec4053c43">
@@ -26,90 +25,42 @@
         <script type='text/javascript' src='//plumposterity.com/c4/de/e0/c4dee032d9c2ae92f0fc6b769e92f172.js'></script> 
     </head>
     <body>
-        
-        <div class="side_background" id="side_background"></div>
-        <div class="side_bar" id="side_bar">
-            <div class="side_content" id="side_content">
-                <div class="side_top">
-                    <p><a href="https://treasure.cx">TreasureAlts</a></p>
-                </div>
-                 
-                <div class="side_profile">
-                    <img src="https://avatars.dicebear.com/api/bottts/Minegame.svg">
-                    <div class="side_profile_i">
-                        <p>Hello, Minegame</p>
-                        <p class="sp_plan">Current Plan: Free</p>
+        <div class="form_outer">
+            <div class="form_main">
+                <p class="form_head">Sign In</p>
+                <p class="form_sub">Login to continue to Sparkalts.com</p>
+                <form method="POST">
+                    <input class="hidden" type="hidden" name="r_token" value="8gXq5">
+                    <input class="hidden" type="hidden" name="csrf_token" value="41405be83a5bb9977b048e988ac56c3dd9c9ec1606be85dee4f7a1f1e10550e6">
+                                        <div class="form_control">
+                        <label for="email">Email Address</label>
+                        <div class="form_inner_control">
+                            <i class="fas fa-at"></i>
+                            <input id="email" type="email" name="email" placeholder="Email Address" required>
+                        </div>
                     </div>
-                </div>
-                <div class="side_links">
-                    <a href="https://treasure.cx/minecraft">
-                        <div class="sl_control active" title="Generate Minecraft accounts">
-                            <i class="fas fa-cubes"></i>
-                            <p class="sl_title">Minecraft</p>
+                    <div class="form_control">
+                        <label for="password">Password</label>
+                        <div class="form_inner_control">
+                            <i class="fas fa-lock"></i>
+                            <input id="password" type="password" name="password" placeholder="Password" required>
                         </div>
-                    </a>
-                    <a href="https://treasure.cx/disney">
-                        <div class="sl_control " title="Generate Disney Plus accounts">
-                            <i class="fab fa-fort-awesome"></i>
-                            <p class="sl_title">Disney +</p>
-                        </div>
-                    </a>
-                    <a href="https://treasure.cx/spotify">
-                        <div class="sl_control " title="Generate Spotify accounts">
-                            <i class="fab fa-spotify"></i>
-                            <p class="sl_title">Spotify</p>
-                        </div>
-                    </a>
-                    <a target="_blank" href="https://discord.gg/XBjzpCYcav">
-                        <div class="sl_control" title="Join our Discord server">
-                            <i class="fab fa-discord"></i>
-                            <p class="sl_title">Join Discord</p>
-                        </div>
-                    </a>
-                    <div class="sl_control" title="Access your account settings" onclick="show_error('This feature is currently unavailable')">
-                        <i class="fas fa-cog"></i>
-                        <p class="sl_title">Settings</p>
                     </div>
-                    <a href="https://treasure.cx/logout">
-                        <div class="sl_control" title="Log out of your account">
-                            <i class="fas fa-sign-out-alt"></i>
-                            <p class="sl_title">Log Out</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="top_nav">
-            <p class="tv_title"><a href="https://treasure.cx">TreasureAlts</a></p>
-            <div class="tv_drop" id="side_show"><i class="fas fa-bars"></i></div>
-        </div>
-        <div class="content">
-            <div class="noti_wrap">
-                <div class="noti_bar">
-                    <p>Fresh restock of Disney Plus, over 1000 accounts in stock!</p>
-                </div>
-            </div>
-        </div>        <div class="content">
-            <div class="gen_outer">
-                <div class="gen_grid">
-                    <div class="gen_card">
-                        <p class="gen_card_title">Minecraft Generator</p>
-                         
-                        <input class="i_100" type="text" placeholder="Email:Password" readonly value="">
-                        <div class="gen_card_dual">
-                            <input type="text" placeholder="Email" readonly value="">
-                            <input type="text" placeholder="Password" readonly value="">
-                        </div>
-                        <form method="POST">
-                            <input class="hidden" type="hidden" name="r_token" value="Dpxva">
-                            <input class="hidden" type="hidden" name="csrf_token" value="761d3be4c1208222a4dd8f874b326baf2d815dda8ecfe7bd4f489bd27750496f">
-                            <input class="hidden" type="hidden" name="gen_token" value="mincft">
-                            <button type="submit" name="gen_submit" class="gen_card_button"><i class="fas fa-sync"></i> Generate</button>
-                        </form>
+                    <div class="form_control">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember" class="cbox_text">Remember Me</label>
                     </div>
-                </div>
+                    <div class="form_control">
+                        <a class="form_reset" href="">Reset Password</a>
+                        <button type="submit" name="l_submit">Sign In</button>
+                    </div>
+                    <div class="form_control form_alt">
+                        <p>Not Registered?</p> <a href="https://treasure.cx/register">Sign Up</a>
+                    </div>
+                </form>
             </div>
         </div>
         <script src="https://treasure.cx/js/main.js?v1.2"></script>
     </body>
 </html>
+     
