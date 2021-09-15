@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minecraft - SparkAlts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="TreasureAlts offers high quality alts for FREE. simply sign up and start generating your accounts!">
+        <meta name="keywords" content="alts, minecraft alts, minecraft generator, account generator, minecraft account, accounts, accounts generator, alts generator, free alts, disney accounts, disney plus accounts, disney + accounts, spotify accounts, free spotify, free disney, free minecraft">
+        <meta name="og:title" content="Minecraft - TreasureAlts">
+        <meta name="og:description" content="TreasureAlts offers high quality alts for FREE. simply sign up and start generating your accounts!" />
+        <meta name="theme-color" content="#0084ff">
+        <meta name="exoclick-site-verification" content="dc564cea5dd92542f66849fec4053c43">
+        <link rel="icon" type="image/png" href="https://treasure.cx/assets/favicon.png">
+        <link rel="stylesheet" href="https://treasure.cx/style/main.css?v1.2">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-207267746-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-207267746-1');
+        </script>
+        <script type='text/javascript' src='//plumposterity.com/c4/de/e0/c4dee032d9c2ae92f0fc6b769e92f172.js'></script> 
+    </head>
+    <body>
+        
+        <div class="side_background" id="side_background"></div>
+        <div class="side_bar" id="side_bar">
+            <div class="side_content" id="side_content">
+                <div class="side_top">
+                    <p><a href="https://treasure.cx">TreasureAlts</a></p>
+                </div>
+                 
+                <div class="side_profile">
+                    <img src="https://avatars.dicebear.com/api/bottts/Minegame.svg">
+                    <div class="side_profile_i">
+                        <p>Hello, Minegame</p>
+                        <p class="sp_plan">Current Plan: Free</p>
+                    </div>
+                </div>
+                <div class="side_links">
+                    <a href="https://treasure.cx/minecraft">
+                        <div class="sl_control active" title="Generate Minecraft accounts">
+                            <i class="fas fa-cubes"></i>
+                            <p class="sl_title">Minecraft</p>
+                        </div>
+                    </a>
+                    <a href="https://treasure.cx/disney">
+                        <div class="sl_control " title="Generate Disney Plus accounts">
+                            <i class="fab fa-fort-awesome"></i>
+                            <p class="sl_title">Disney +</p>
+                        </div>
+                    </a>
+                    <a href="https://treasure.cx/spotify">
+                        <div class="sl_control " title="Generate Spotify accounts">
+                            <i class="fab fa-spotify"></i>
+                            <p class="sl_title">Spotify</p>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://discord.gg/XBjzpCYcav">
+                        <div class="sl_control" title="Join our Discord server">
+                            <i class="fab fa-discord"></i>
+                            <p class="sl_title">Join Discord</p>
+                        </div>
+                    </a>
+                    <div class="sl_control" title="Access your account settings" onclick="show_error('This feature is currently unavailable')">
+                        <i class="fas fa-cog"></i>
+                        <p class="sl_title">Settings</p>
+                    </div>
+                    <a href="https://treasure.cx/logout">
+                        <div class="sl_control" title="Log out of your account">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <p class="sl_title">Log Out</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="top_nav">
+            <p class="tv_title"><a href="https://treasure.cx">TreasureAlts</a></p>
+            <div class="tv_drop" id="side_show"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="content">
+            <div class="noti_wrap">
+                <div class="noti_bar">
+                    <p>Fresh restock of Disney Plus, over 1000 accounts in stock!</p>
+                </div>
+            </div>
+        </div>        <div class="content">
+            <div class="gen_outer">
+                <div class="gen_grid">
+                    <div class="gen_card">
+                        <p class="gen_card_title">Minecraft Generator</p>
+                         
+                        <input class="i_100" type="text" placeholder="Email:Password" readonly value="">
+                        <div class="gen_card_dual">
+                            <input type="text" placeholder="Email" readonly value="">
+                            <input type="text" placeholder="Password" readonly value="">
+                        </div>
+                        <form method="POST">
+                            <input class="hidden" type="hidden" name="r_token" value="HWD89">
+                            <input class="hidden" type="hidden" name="csrf_token" value="e1145f4692e02b54a859f14f503ff310c23d63f1a2d0f5b64ecba5a05b8c9f7a">
+                            <input class="hidden" type="hidden" name="gen_token" value="mincft">
+                            <button type="submit" name="gen_submit" class="gen_card_button"><i class="fas fa-sync"></i> Generate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://treasure.cx/js/main.js?v1.2"></script>
